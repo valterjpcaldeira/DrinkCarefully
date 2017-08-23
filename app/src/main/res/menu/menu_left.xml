@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/perfil"
+        android:icon="@drawable/ic_my"
+        android:title="Meu Perfil" >
+    </item>
+    <item android:id="@+id/sobre"
+        android:icon="@drawable/ic_about"
+        android:title="Sobre Nós" >
+    </item>
+</menu>

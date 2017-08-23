@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrinkCarefully</string>
+    <string name="dummy_button">Entrar</string>
+    <string name="dummy_content">Drink\nCarefully</string>
+    <string name="facebook_app_id">614110965359486</string>
+    <string name="msg_conf_ligacao">Tem a certeza que pretende\nligar para o táxi\n(</string>
+    <string name="sim_taxi">Sim</string>
+    <string name="nao_taxi">Não</string>
+    <string name="sobre_nos">***Versão Beta***\nCriadores:\n-Valter Caldeira\n-Flávio Vidasinha\n-Filipa Estêvão\n-Cristiana Amorim\n-José Marneca\n-Pedro Marques</string>
+    <string name="cidades_prompt">Escolha uma cidade</string>
+    <string name="app_id">614110965359486</string>
+
+    <string-array name="cidades_array">
+        <item>Aveiro</item>
+        <item>Coimbra</item>
+        <item>Évora</item>
+        <item>Faro</item>
+        <item>Lisboa</item>
+        <item>Porto</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@drawable/fundoresult">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.18"></TableRow>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="173dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/greenlightnew"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Muito Bem!!             Pode Conduzir!!!"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26"
+        android:textStyle="bold"
+        android:textColor="#4d4d4d"
+        android:textSize="40dp"
+        android:gravity="center" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Álcool:"
+            android:id="@+id/textView9"
+            android:textSize="30dp"
+            android:textColor="#4d4d4d"
+            android:layout_weight="0.22"
+            android:gravity="center"
+            android:layout_marginLeft="55dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/id_alcool"
+            android:textSize="30dp"
+            android:textColor="#4d4d4d"
+            android:layout_weight="0.24"
+            android:gravity="center"
+            android:text="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="mg/100 ml"
+            android:id="@+id/textView12"
+            android:textSize="20dp"
+            android:textColor="#4d4d4d"
+            android:layout_weight="0.22" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1" >
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1" >
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="56dp"
+            android:layout_weight="0.95" />
+
+        <com.facebook.share.widget.ShareButton
+            android:layout_width="89dp"
+            android:layout_height="38dp"
+            android:id="@+id/share"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.07" />
+
+    </TableRow>
+
+</LinearLayout>
